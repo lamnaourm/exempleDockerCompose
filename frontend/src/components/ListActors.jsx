@@ -17,7 +17,7 @@ export default function ListActors() {
         <div>
             {
                 actors.map((item) => (
-                <li>{item.name}</li>
+                <li>{item.name} - {item.birthdate}</li>
             ))
             }
         </div>

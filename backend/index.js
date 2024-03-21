@@ -3,7 +3,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import ActorRoute from './routes/Actor.js'
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 3000
 const URL_MONGO = process.env.URL_MONGOOSE
 const dbname = process.env.DBNAME
 
